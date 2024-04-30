@@ -32,7 +32,7 @@ runs:
   steps:
     - id: invoke-gitlab-action
       name: invoke-gitlab-action
-      uses: docker://public.ecr.aws/l7o7z1g8/actions/gitlab-actions:main-a5714d86a5c6b189778b5927ec4ed9790ef41eff
+      uses: docker://public.ecr.aws/l7o7z1g8/actions/gitlab-actions:main-720afcc3528ea70997d9972890d54962dd09acfe
       shell: sh
       env: 
         RUN_ID: ${{ cloudbees.run_id }}
